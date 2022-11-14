@@ -1,0 +1,15 @@
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/CMakeFiles/My_TCMalloc.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/back-end/CMakeFiles/BACK_END.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/back-end/CMakeFiles/edit_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/back-end/CMakeFiles/rebuild_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/front-end/CMakeFiles/FRONT_END.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/front-end/CMakeFiles/edit_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/front-end/CMakeFiles/rebuild_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/middle-end/CMakeFiles/MIDDLE_END.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/middle-end/CMakeFiles/edit_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/middle-end/CMakeFiles/rebuild_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/common/CMakeFiles/COMMON.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/common/CMakeFiles/edit_cache.dir
+/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug/common/CMakeFiles/rebuild_cache.dir

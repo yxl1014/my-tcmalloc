@@ -1,0 +1,163 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "back-end",
+					"jsonFile" : "directory-back-end-Debug-285164fe7d7334f83b9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "back-end",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "front-end",
+					"jsonFile" : "directory-front-end-Debug-6f88eb9427557243fe39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "front-end",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "middle-end",
+					"jsonFile" : "directory-middle-end-Debug-b3770f17db653c519dc0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "middle-end",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "My_TCMalloc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "BACK_END::@8ca12c1f1c8bfca9c4ed",
+					"jsonFile" : "target-BACK_END-Debug-2df13838d608d7aa4d6b.json",
+					"name" : "BACK_END",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "COMMON::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-COMMON-Debug-c88cb3603285afd3d7a4.json",
+					"name" : "COMMON",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "FRONT_END::@386010b86407fc47d04c",
+					"jsonFile" : "target-FRONT_END-Debug-459a7bd24e7f90682d44.json",
+					"name" : "FRONT_END",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MIDDLE_END::@e74791be979947d5f346",
+					"jsonFile" : "target-MIDDLE_END-Debug-c33d0f410bfd8b42d1ad.json",
+					"name" : "MIDDLE_END",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "My_TCMalloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-My_TCMalloc-Debug-40cf54ac97ccf813577e.json",
+					"name" : "My_TCMalloc",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yxl/CLionProjects/My_TCMalloc/cmake-build-debug",
+		"source" : "/home/yxl/CLionProjects/My_TCMalloc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
