@@ -7,6 +7,10 @@
       <file path="$PROJECT_DIR$/common" />
       <file path="$PROJECT_DIR$/front-end" />
       <file path="$PROJECT_DIR$/middle-end" />
+      <file path="$PROJECT_DIR$/try/back" />
+      <file path="$PROJECT_DIR$/try/com" />
+      <file path="$PROJECT_DIR$/try/front" />
+      <file path="$PROJECT_DIR$/try/middle" />
     </sourceRoots>
   </component>
 </project>

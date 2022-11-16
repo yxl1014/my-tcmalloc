@@ -22,24 +22,34 @@ namespace MyTCMalloc {
 
     //TODO 用于计算页面大小的移位量
     constexpr size_t kPageShift = 13;
+
     //TODO 一个FreeList的class-size的数量
     constexpr size_t kNumBaseClasses = 86;
+
     //TODO 是否拥有扩展类
     constexpr bool kHasExpandedClasses = true;
+
     //TODO font-end和middle-end分配内存最大的大小的最大大小                256KB
     constexpr size_t kMaxSize = 256 * 1024;
+
     //TODO 线程cache区最小容量                                          512KB
     constexpr size_t kMinThreadCacheSize = kMaxSize * 2;
+
     //TODO 线程cache区最大容量                                          4MB
     constexpr size_t kMaxThreadCacheSize = 4 << 20;
+
     //TODO cpu最大容量                                                 1.5MB
     constexpr size_t kMaxCpuCacheSize = 1.5 * 1024 * 1024;
+
     //TODO 所有线程整合默认cache容量
     constexpr size_t kDefaultOverallThreadCacheSize = 8u * kMaxThreadCacheSize;
+
     //TODO 当线程Scavenge()时从middle-end获取的最小cache大小              64KB
     constexpr size_t kStealAmount = 1 << 16;
+
     //TODO
     constexpr size_t kDefaultProfileSamplingRate = 1 << 21;
+
     //TODO 最小页数
     constexpr size_t kMinPages = 8;
 

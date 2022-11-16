@@ -55,6 +55,18 @@ build CMakeFiles/My_TCMalloc.dir/main.cpp.o: CXX_COMPILER__My_TCMalloc_Debug /ho
   OBJECT_DIR = CMakeFiles/My_TCMalloc.dir
   OBJECT_FILE_DIR = CMakeFiles/My_TCMalloc.dir
 
+build CMakeFiles/My_TCMalloc.dir/try/com/span.cpp.o: CXX_COMPILER__My_TCMalloc_Debug /home/yxl/CLionProjects/My_TCMalloc/try/com/span.cpp || cmake_object_order_depends_target_My_TCMalloc
+  DEP_FILE = CMakeFiles/My_TCMalloc.dir/try/com/span.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles/My_TCMalloc.dir
+  OBJECT_FILE_DIR = CMakeFiles/My_TCMalloc.dir/try/com
+
+build CMakeFiles/My_TCMalloc.dir/try/com/page.cpp.o: CXX_COMPILER__My_TCMalloc_Debug /home/yxl/CLionProjects/My_TCMalloc/try/com/page.cpp || cmake_object_order_depends_target_My_TCMalloc
+  DEP_FILE = CMakeFiles/My_TCMalloc.dir/try/com/page.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles/My_TCMalloc.dir
+  OBJECT_FILE_DIR = CMakeFiles/My_TCMalloc.dir/try/com
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target My_TCMalloc
@@ -63,7 +75,7 @@ build CMakeFiles/My_TCMalloc.dir/main.cpp.o: CXX_COMPILER__My_TCMalloc_Debug /ho
 #############################################
 # Link the executable My_TCMalloc
 
-build My_TCMalloc: CXX_EXECUTABLE_LINKER__My_TCMalloc_Debug CMakeFiles/My_TCMalloc.dir/main.cpp.o | back-end/libBACK_END.a front-end/libFRONT_END.a middle-end/libMIDDLE_END.a common/libCOMMON.a || back-end/libBACK_END.a common/libCOMMON.a front-end/libFRONT_END.a middle-end/libMIDDLE_END.a
+build My_TCMalloc: CXX_EXECUTABLE_LINKER__My_TCMalloc_Debug CMakeFiles/My_TCMalloc.dir/main.cpp.o CMakeFiles/My_TCMalloc.dir/try/com/span.cpp.o CMakeFiles/My_TCMalloc.dir/try/com/page.cpp.o | back-end/libBACK_END.a front-end/libFRONT_END.a middle-end/libMIDDLE_END.a common/libCOMMON.a || back-end/libBACK_END.a common/libCOMMON.a front-end/libFRONT_END.a middle-end/libMIDDLE_END.a
   FLAGS = -g
   LINK_LIBRARIES = back-end/libBACK_END.a  front-end/libFRONT_END.a  middle-end/libMIDDLE_END.a  common/libCOMMON.a
   OBJECT_DIR = CMakeFiles/My_TCMalloc.dir
@@ -290,14 +302,20 @@ build middle-end/rebuild_cache: phony middle-end/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_COMMON: phony || common/CMakeFiles/COMMON.dir
 
-build common/CMakeFiles/COMMON.dir/ClassSize.cpp.o: CXX_COMPILER__COMMON_Debug /home/yxl/CLionProjects/My_TCMalloc/common/ClassSize.cpp || cmake_object_order_depends_target_COMMON
-  DEP_FILE = common/CMakeFiles/COMMON.dir/ClassSize.cpp.o.d
+build common/CMakeFiles/COMMON.dir/common.cpp.o: CXX_COMPILER__COMMON_Debug /home/yxl/CLionProjects/My_TCMalloc/common/common.cpp || cmake_object_order_depends_target_COMMON
+  DEP_FILE = common/CMakeFiles/COMMON.dir/common.cpp.o.d
   FLAGS = -g -std=gnu++11
   OBJECT_DIR = common/CMakeFiles/COMMON.dir
   OBJECT_FILE_DIR = common/CMakeFiles/COMMON.dir
 
-build common/CMakeFiles/COMMON.dir/define.cpp.o: CXX_COMPILER__COMMON_Debug /home/yxl/CLionProjects/My_TCMalloc/common/define.cpp || cmake_object_order_depends_target_COMMON
-  DEP_FILE = common/CMakeFiles/COMMON.dir/define.cpp.o.d
+build common/CMakeFiles/COMMON.dir/my_page.cpp.o: CXX_COMPILER__COMMON_Debug /home/yxl/CLionProjects/My_TCMalloc/common/my_page.cpp || cmake_object_order_depends_target_COMMON
+  DEP_FILE = common/CMakeFiles/COMMON.dir/my_page.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = common/CMakeFiles/COMMON.dir
+  OBJECT_FILE_DIR = common/CMakeFiles/COMMON.dir
+
+build common/CMakeFiles/COMMON.dir/my_span.cpp.o: CXX_COMPILER__COMMON_Debug /home/yxl/CLionProjects/My_TCMalloc/common/my_span.cpp || cmake_object_order_depends_target_COMMON
+  DEP_FILE = common/CMakeFiles/COMMON.dir/my_span.cpp.o.d
   FLAGS = -g -std=gnu++11
   OBJECT_DIR = common/CMakeFiles/COMMON.dir
   OBJECT_FILE_DIR = common/CMakeFiles/COMMON.dir
@@ -316,7 +334,7 @@ build common/CMakeFiles/COMMON.dir/mysizemap.cpp.o: CXX_COMPILER__COMMON_Debug /
 #############################################
 # Link the static library common/libCOMMON.a
 
-build common/libCOMMON.a: CXX_STATIC_LIBRARY_LINKER__COMMON_Debug common/CMakeFiles/COMMON.dir/ClassSize.cpp.o common/CMakeFiles/COMMON.dir/define.cpp.o common/CMakeFiles/COMMON.dir/mysizemap.cpp.o
+build common/libCOMMON.a: CXX_STATIC_LIBRARY_LINKER__COMMON_Debug common/CMakeFiles/COMMON.dir/common.cpp.o common/CMakeFiles/COMMON.dir/my_page.cpp.o common/CMakeFiles/COMMON.dir/my_span.cpp.o common/CMakeFiles/COMMON.dir/mysizemap.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = common/CMakeFiles/COMMON.dir
   POST_BUILD = :
